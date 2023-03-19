@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Agenda de Contatos</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Novo Contato</h1>
+	<form name="frmContato" action="inserir">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="telefone" placeholder="Telefone"
+					class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" placeholder="E-mail"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="endereco" placeholder="Endereço"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="dataNascimento" placeholder="Data de Nascimento"
+					class="Caixa2"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1"
+			onclick="validar()">
+	</form>
+	<div class="container">
+		<h6>Autora:</h6>
+		<a href="https://www.linkedin.com/in/juliana-lima-b133b967/"
+			target="_blank"> <img src="icones/linkedin.png" alt="LinkedIn"
+			class="icon">
+		</a>
+	</div>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>

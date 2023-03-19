@@ -1,0 +1,12 @@
+O Word com as anotações deste projeto está em D:\Programação\Projetos Escritos\Servlet +JDBC+JSP- Jose de Assis.
+
+Fiz dois projetos semelhante, um chamado 'Agenda_Servlet_JSP_JDBC - Com Cometarios' possui algums comentários e este 
+deixei sem para subir para o git, outra diferença é que este 'Agenda_Servlet_JSP_JDBC' tem documentação gerada pelo javadoc e
+a data é do nascimento e o 'Agenda_Servlet_JSP_JDBC - Com Cometarios' não tem possui documentação gerada pelo javadoc e a data é do cadastro.
+
+PARA RODAR ESTE PROJETO:
+- Para executar um projeto JSP, você deve ter instalado o Java 11, o Eclipse e o Apache Tomcat em seu computador.
+- No Eclipse, adicione o projeto Agenda_Servlet_JSP_JDBC ao servidor Tomcat na aba Servers.
+- Crie um banco de dados com o nome que preferir e altere as informações de conexão no arquivo conexão.properties dentro do projeto. A tabela 
+	será criada automaticamente quando você clicar no botão acessar na página inicial.
+- Selecione o arquivo index.html no projeto e escolha a opção Run on Server para iniciar a aplicação.
